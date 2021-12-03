@@ -1,0 +1,147 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:28.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:28.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:13.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:13.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Courier New,serif;font-size:9.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Courier New,serif;font-size:9.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:9.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:9.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:22.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:22.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background1.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:11.80px" class="cls_002"><span class="cls_002">Customer Overview Report</span></div>
+<div style="position:absolute;left:11.25px;top:51.56px" class="cls_003"><span class="cls_003">12/3/2021</span></div>
+<div style="position:absolute;left:19.13px;top:83.08px" class="cls_004"><span class="cls_004">## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</span></div>
+<div style="position:absolute;left:19.13px;top:120.59px" class="cls_004"><span class="cls_004">## </span><span class="cls_005">✓</span><span class="cls_004"> ggplot2 3.3.3</span></div>
+<div style="position:absolute;left:153.78px;top:120.59px" class="cls_005"><span class="cls_005">✓</span><span class="cls_004"> purrr</span></div>
+<div style="position:absolute;left:212.33px;top:120.59px" class="cls_004"><span class="cls_004">0.3.4</span></div>
+<div style="position:absolute;left:19.13px;top:134.10px" class="cls_004"><span class="cls_004">## </span><span class="cls_005">✓</span><span class="cls_004"> tibble</span></div>
+<div style="position:absolute;left:95.25px;top:134.10px" class="cls_004"><span class="cls_004">3.1.1</span></div>
+<div style="position:absolute;left:153.78px;top:134.10px" class="cls_005"><span class="cls_005">✓</span><span class="cls_004"> dplyr</span></div>
+<div style="position:absolute;left:212.33px;top:134.10px" class="cls_004"><span class="cls_004">1.0.5</span></div>
+<div style="position:absolute;left:19.13px;top:148.35px" class="cls_004"><span class="cls_004">## </span><span class="cls_005">✓</span><span class="cls_004"> tidyr</span></div>
+<div style="position:absolute;left:95.25px;top:148.35px" class="cls_004"><span class="cls_004">1.1.3</span></div>
+<div style="position:absolute;left:153.78px;top:148.35px" class="cls_005"><span class="cls_005">✓</span><span class="cls_004"> stringr 1.4.0</span></div>
+<div style="position:absolute;left:19.13px;top:161.86px" class="cls_004"><span class="cls_004">## </span><span class="cls_005">✓</span><span class="cls_004"> readr</span></div>
+<div style="position:absolute;left:95.25px;top:161.86px" class="cls_004"><span class="cls_004">1.4.0</span></div>
+<div style="position:absolute;left:153.78px;top:161.86px" class="cls_005"><span class="cls_005">✓</span><span class="cls_004"> forcats 0.5.1</span></div>
+<div style="position:absolute;left:19.13px;top:199.37px" class="cls_004"><span class="cls_004">## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──</span></div>
+<div style="position:absolute;left:19.13px;top:212.88px" class="cls_004"><span class="cls_004">## x dplyr::filter() masks stats::filter()</span></div>
+<div style="position:absolute;left:19.13px;top:227.14px" class="cls_004"><span class="cls_004">## x dplyr::lag()</span></div>
+<div style="position:absolute;left:142.05px;top:227.14px" class="cls_004"><span class="cls_004">masks stats::lag()</span></div>
+<div style="position:absolute;left:19.13px;top:264.65px" class="cls_004"><span class="cls_004">## corrplot 0.90 loaded</span></div>
+<div style="position:absolute;left:19.13px;top:301.42px" class="cls_004"><span class="cls_004">## Warning: NAs introduced by coercion</span></div>
+<div style="position:absolute;left:11.25px;top:336.68px" class="cls_006"><span class="cls_006">Customer Insights Analytics</span></div>
+<div style="position:absolute;left:11.25px;top:371.20px" class="cls_007"><span class="cls_007">1. Product Correlation</span></div>
+<div style="position:absolute;left:11.25px;top:406.46px" class="cls_008"><span class="cls_008">#Statistics of Product Number Purchased by Customer</span></div>
+<div style="position:absolute;left:19.13px;top:435.72px" class="cls_004"><span class="cls_004">##</span></div>
+<div style="position:absolute;left:54.25px;top:435.72px" class="cls_004"><span class="cls_004">Min. 1st Qu.  Median</span></div>
+<div style="position:absolute;left:194.74px;top:435.72px" class="cls_004"><span class="cls_004">Mean 3rd Qu.</span></div>
+<div style="position:absolute;left:288.39px;top:435.72px" class="cls_004"><span class="cls_004">Max.</span></div>
+<div style="position:absolute;left:19.13px;top:449.98px" class="cls_004"><span class="cls_004">##</span></div>
+<div style="position:absolute;left:48.40px;top:449.98px" class="cls_004"><span class="cls_004">0.000</span></div>
+<div style="position:absolute;left:95.23px;top:449.98px" class="cls_004"><span class="cls_004">1.000</span></div>
+<div style="position:absolute;left:142.05px;top:449.98px" class="cls_004"><span class="cls_004">1.000</span></div>
+<div style="position:absolute;left:188.88px;top:449.98px" class="cls_004"><span class="cls_004">1.474</span></div>
+<div style="position:absolute;left:235.71px;top:449.98px" class="cls_004"><span class="cls_004">2.000</span></div>
+<div style="position:absolute;left:276.68px;top:449.98px" class="cls_004"><span class="cls_004">15.000</span></div>
+<div style="position:absolute;left:11.25px;top:479.99px" class="cls_008"><span class="cls_008">#Relationship Among Product</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:850px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background2.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:371.95px" class="cls_007"><span class="cls_007">2. Age</span></div>
+<div style="position:absolute;left:11.25px;top:407.21px" class="cls_008"><span class="cls_008">#Statistics of Customer Age</span></div>
+<div style="position:absolute;left:19.13px;top:437.22px" class="cls_004"><span class="cls_004">##</span></div>
+<div style="position:absolute;left:54.25px;top:437.22px" class="cls_004"><span class="cls_004">Min. 1st Qu.  Median</span></div>
+<div style="position:absolute;left:194.74px;top:437.22px" class="cls_004"><span class="cls_004">Mean 3rd Qu.</span></div>
+<div style="position:absolute;left:288.39px;top:437.22px" class="cls_004"><span class="cls_004">Max.</span></div>
+<div style="position:absolute;left:19.13px;top:450.73px" class="cls_004"><span class="cls_004">##</span></div>
+<div style="position:absolute;left:60.11px;top:450.73px" class="cls_004"><span class="cls_004">0.0</span></div>
+<div style="position:absolute;left:101.08px;top:450.73px" class="cls_004"><span class="cls_004">24.0</span></div>
+<div style="position:absolute;left:147.91px;top:450.73px" class="cls_004"><span class="cls_004">39.0</span></div>
+<div style="position:absolute;left:194.74px;top:450.73px" class="cls_004"><span class="cls_004">40.1</span></div>
+<div style="position:absolute;left:241.56px;top:450.73px" class="cls_004"><span class="cls_004">50.0</span></div>
+<div style="position:absolute;left:282.54px;top:450.73px" class="cls_004"><span class="cls_004">164.0</span></div>
+<div style="position:absolute;left:11.25px;top:480.74px" class="cls_008"><span class="cls_008">#Age Distribution</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:1700px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background3.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:367.44px" class="cls_008"><span class="cls_008">#Average Number of Product per Age</span></div>
+<div style="position:absolute;left:11.25px;top:757.61px" class="cls_008"><span class="cls_008">#Total Number of Product per Age</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:2550px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background4.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:371.95px" class="cls_007"><span class="cls_007">3. Gender</span></div>
+<div style="position:absolute;left:11.25px;top:407.21px" class="cls_008"><span class="cls_008">#Statistics of Customer Gender</span></div>
+<div style="position:absolute;left:21.76px;top:434.22px" class="cls_009"><span class="cls_009">Sex</span></div>
+<div style="position:absolute;left:484.74px;top:434.22px" class="cls_009"><span class="cls_009">Total_Product_No</span></div>
+<div style="position:absolute;left:21.76px;top:449.23px" class="cls_008"><span class="cls_008">&lt;chr></span></div>
+<div style="position:absolute;left:545.85px;top:449.23px" class="cls_008"><span class="cls_008">&lt;dbl></span></div>
+<div style="position:absolute;left:21.76px;top:473.24px" class="cls_008"><span class="cls_008">Female</span></div>
+<div style="position:absolute;left:526.52px;top:473.24px" class="cls_008"><span class="cls_008">11498043</span></div>
+<div style="position:absolute;left:21.76px;top:496.50px" class="cls_008"><span class="cls_008">Male</span></div>
+<div style="position:absolute;left:532.36px;top:496.50px" class="cls_008"><span class="cls_008">8344601</span></div>
+<div style="position:absolute;left:18.01px;top:519.76px" class="cls_008"><span class="cls_008">2 rows</span></div>
+<div style="position:absolute;left:11.25px;top:546.77px" class="cls_008"><span class="cls_008">#Gender Distribution</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:3400px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background5.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:367.44px" class="cls_008"><span class="cls_008">#Age Distribution in Each Product</span></div>
+<div style="position:absolute;left:11.25px;top:757.61px" class="cls_008"><span class="cls_008">#Total Number of Product per Gender</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:4250px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background6.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:371.95px" class="cls_007"><span class="cls_007">4. Gross Income</span></div>
+<div style="position:absolute;left:11.25px;top:407.21px" class="cls_008"><span class="cls_008">#Statistics of Customer Gross Income</span></div>
+<div style="position:absolute;left:19.13px;top:437.22px" class="cls_004"><span class="cls_004">##</span></div>
+<div style="position:absolute;left:60.11px;top:437.22px" class="cls_004"><span class="cls_004">Min.</span></div>
+<div style="position:absolute;left:95.23px;top:437.22px" class="cls_004"><span class="cls_004">1st Qu.</span></div>
+<div style="position:absolute;left:153.76px;top:437.22px" class="cls_004"><span class="cls_004">Median</span></div>
+<div style="position:absolute;left:218.15px;top:437.22px" class="cls_004"><span class="cls_004">Mean</span></div>
+<div style="position:absolute;left:253.27px;top:437.22px" class="cls_004"><span class="cls_004">3rd Qu.</span></div>
+<div style="position:absolute;left:323.51px;top:437.22px" class="cls_004"><span class="cls_004">Max.</span></div>
+<div style="position:absolute;left:19.13px;top:450.73px" class="cls_004"><span class="cls_004">##</span></div>
+<div style="position:absolute;left:77.67px;top:450.73px" class="cls_004"><span class="cls_004">0</span></div>
+<div style="position:absolute;left:106.93px;top:450.73px" class="cls_004"><span class="cls_004">43237</span></div>
+<div style="position:absolute;left:159.61px;top:450.73px" class="cls_004"><span class="cls_004">84373</span></div>
+<div style="position:absolute;left:206.44px;top:450.73px" class="cls_004"><span class="cls_004">107700</span></div>
+<div style="position:absolute;left:259.12px;top:450.73px" class="cls_004"><span class="cls_004">138148 28894396</span></div>
+<div style="position:absolute;left:11.25px;top:480.74px" class="cls_008"><span class="cls_008">#Average Number of Product versus Gross Income</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5100px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background7.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:371.95px" class="cls_007"><span class="cls_007">5. Customer Type</span></div>
+<div style="position:absolute;left:11.25px;top:407.21px" class="cls_008"><span class="cls_008">#Statistics of Customer Type</span></div>
+<div style="position:absolute;left:11.25px;top:797.38px" class="cls_008"><span class="cls_008">#Total Number of Product per Customer Type</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5950px;width:594px;height:840px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3febd636-5426-11ec-a980-0cc47a792c0a_id_3febd636-5426-11ec-a980-0cc47a792c0a_files/background8.jpg" width=594 height=840></div>
+<div style="position:absolute;left:11.25px;top:367.44px" class="cls_008"><span class="cls_008">#Range of Product Number per Customer Type</span></div>
+</div>
+
+</body>
+</html>
