@@ -4,9 +4,9 @@ Dataset can be found in here (https://www.kaggle.com/c/santander-product-recomme
 The product recommendation system is built based on the customer historical data
 It involves two filtering approaches: collaborative filtering and demographic filtering
 
-Output: 
-- Combined demographic-based and memory-based probabilities
+Based on the model, it will output the following: 
 - Top 1 recommended product for each customer
+- Combined demographic-based and memory-based probabilities
 
 For the details, please refer to the corresponding files:
 1. Predictive model (Python): Recommendation System Modeling.ipynb
