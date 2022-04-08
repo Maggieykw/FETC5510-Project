@@ -1,8 +1,7 @@
 # Financial Product Recommendation System
 Dataset can be found in here (https://www.kaggle.com/c/santander-product-recommendation/data)
 
-The product recommendation system is built based on the customer historical data
-It involves two filtering approaches: collaborative filtering and demographic filtering
+The product recommendation system is built based on the customer historical data. It involves two filtering approaches: collaborative filtering and demographic filtering
 
 Based on the model, it will output the following: 
 - Top 1 recommended product for each customer
